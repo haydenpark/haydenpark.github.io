@@ -1,0 +1,70 @@
+
+/* Border & background */
+.mobile #graph {
+  font: 10px sans-serif;
+  background:white;
+}
+
+.desktop #graph {
+  font: 12px sans-serif;
+  background:white;
+}
+
+/* Axes */
+.mobile #graph .axis {
+  font: 8px sans-serif;
+}
+.desktop #graph .axis {
+  font: 11px sans-serif;
+}
+
+#graph .axis path,
+#graph .axis line {
+  fill: none;
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+}
+
+/* Lines */
+#graph .line {
+  fill: none;
+  stroke:orange;
+  stroke-width: 2px;
+}
+
+#graph {
+    clear:both;
+}
+#now .column {
+    float: left;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    margin: 2px;
+    font-size: 2.461em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    background-color: #e0e3eb;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+#temp {
+    color: #fd843b;
+}
+#humid {
+    color: steelblue;
+}
+#datetime td{
+    float:clear;
+    line-height: 20px;
+    font-size: 18px;
+    color: #050505;
+    font-weight: bold;
+    text-align:center;
+}
+#datetime table {
+    width:100%;
+    height:100%;
+}

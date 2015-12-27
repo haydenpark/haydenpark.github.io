@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>DHT11 Temperature/Humidity monitoring</title>
+    <link rel="stylesheet" href="/style.css"/>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="/script.js"></script>
+  </head>
+  
+  <body mode="desktop" num="2000">
+    <h3>DHT11 Temperature/Humidity monitoring</h3>
+    
+    <!-- datetime of the last record and its humidity/temperature. -->
+    <div id="now">
+      <div id="datetime" class="column">
+        <table>
+          <tr><td id="date"></td></tr>
+          <tr><td id="time"></td></tr>
+        </table>
+      </div>
+      <div class="column">
+        <div id="temp"></div>
+      </div>
+      <div class="column">
+        <div id="humid"></div>
+      </div>
+    </div>
+    
+    <!-- place for the d3 graph -->
+    <div id="graph"></div>
+  </body>
+</html>
