@@ -29,7 +29,7 @@
 #graph .line {
   fill: none;
   stroke:orange;
-  stroke-width: 2px;
+  stroke-width: 1px;
 }
 
 #graph {
@@ -52,11 +52,9 @@
 }
 #temp {
     color: #fd843b;
-    stroke-width: 1px;
 }
 #humid {
     color: steelblue;
-    stroke-width: 1px;
 }
 #datetime td{
     float:clear;
