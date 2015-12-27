@@ -60,7 +60,7 @@ $(window).load(function() {
               .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     // Load in data and draw line graph
-    var tsv_url = "double-axes/sample_data.tsv";
+    var tsv_url = "sample_data.tsv";
     d3.tsv(tsv_url, function(error, data) {
         // preprocess tsv data
         data.forEach(function(d) {
