@@ -1,0 +1,49 @@
+body {
+    font: 12px Arial;
+}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+.my-vertical {
+    stroke: lightgrey;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+.grid path {
+    stroke-width: 0;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+textarea {
+    font-family: consolas,"courier new",monospace;
+    font-size: 12px;
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 0.5%;
+    resize: none;
+}
+
+.color-picker {
+    font-family: consolas,"courier new",monospace;
+    font-size: 12px;
+    margin:0;
+    margin-right:10px;
+    padding:0;
+    border:0;
+    width:70px;
+    height:20px;
+    line-height:20px;
+}
